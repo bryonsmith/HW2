@@ -1,7 +1,9 @@
 head {overflow: scroll;}
 
-body {background: gold; font-family: "Times New Roman"; }
+body {background: gold; font-family: "Times New Roman"; font-size:14pt; }
 
-h1 { text-align:center; font-weight:bold; font-style:italic; font-size:50pt; }
+h1 { text-align:center; font-weight:bold; font-style:italic; font-size:40pt; }
 
-h2 { text-align:center; font-weight:bold; font-style:italic; }
+h2 { text-align:center; font-weight:bold; font-style:italic; font-size:25pt; }
+
+p.thick {font-weight:bold}
