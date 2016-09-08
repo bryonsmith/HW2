@@ -1,8 +1,76 @@
-head {overflow: scroll;}
+/* Color scheme */
+/* Gold background color: #e6e600  */
+/* Grey font & menu color: #b3b3b3  */
+/* Dark Gray header color: #888888  */
+/* Black Text color: #000000  */
+/* Orange text area: #FF7600 */
 
-body {background: gold; font-family: "Times New Roman"; font-size:14pt; }
+body {
+	background: gold; 
+	}
+	
+header{
+	background-color:#b3b3b3;
+	margin-top:15px;
+	color:black;
+	overflow:hidden;
+}
+ul#dirlist { 
+	list-style-type:none; 
+	margin: 0 auto; 
+	padding: 0px;
+}
 
-h1 { text-align:center; font-weight:bold; font-style:italic; font-size:40pt; }
+#dirlist li { 
+	display:block; 
+	float:left; 
+	font-weight:bold; 
+	text-align:center; 
+	font-variant:small-caps;
+	padding:5px; 
+}
 
-h2 { text-align:center; font-weight:bold; font-style:italic; font-size:25pt; }
+#dirlist a { 
+	padding: 15px 15px; 
+	}
+
+		
+#dirlist a:link, #dirlist a:visited { 
+	color: #000000; 
+	background-color: #b3b3b3; 
+	text-decoration: none; 
+	text-align: center;
+	}
+
+#dirlist a:hover { 
+	color: #fff; 
+	background-color: #e6e600; 
+	text-decoration: none; 
+	}
+		
+#dirlist { 
+	background-color:#666666;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	}
+	
+a {text-decoration:none;}
+		
+a:hover {text-decoration: underline;}	
+
+
+h1 { 
+	text-align:center; 
+	font-weight:bold; 
+	font-size:40pt; 
+	}
+
+h2 { 
+	text-align:center; 
+	font-weight:bold; 
+	font-style:italic; 
+	font-size:25pt; 
+	}
+	
 
