@@ -58,8 +58,7 @@ ul#dirlist {
 	
 a {text-decoration:none;}
 		
-a:hover {text-decoration: underline;}	
-
+a:hover {text-decoration: underline;}
 
 h1 { 
 	text-align:center; 
@@ -73,41 +72,46 @@ h2 {
 	font-size:30pt; 
 	border: solid 2px black;
 	background: #b3b3b3;
+	text-align: center;
 	}
 
 .picture_size {
 	border: solid 2px black; 
 	background: #b3b3b3;
-	text-align: center;
 	width: 200px;
 	height: 300px;
 	padding: 40px;
 	margin-top: 20px;
 	margin-bottom: 40px;
+	float: left;
 }
 
 .picture_size2 {
 	border: solid 2px black; 
 	background: #b3b3b3;
-	text-align: center;
 	width: 400px;
 	height: 200px;
 	padding: 40px;
 	margin-top: 20px;
 	margin-bottom: 40px;
+	float: left;
 }
 
-#left{
-	width:300%;
-	float:left;
-	overflow:hidden;
-	padding:20px;
-}
 
 #middle {
 	border: solid 2px black; 
 	background: #b3b3b3;
-	text-align: center;
-	overflow:hidden;
+	text-align: left;
 	padding:20px;
+	margin-left: 350px;
+	font-size: 17pt;
+}
+
+#middle2 {
+	border: solid 2px black; 
+	background: #b3b3b3;
+	text-align: left;
+	padding:20px;
+	margin-left: 500px;
+	font-size: 20pt;
 }
