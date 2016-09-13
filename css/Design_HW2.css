@@ -53,7 +53,6 @@ ul#dirlist {
 		
 #dirlist { 
 	background-color:#666666;
-	width:100%;
 	overflow:hidden;
 	text-align:center;
 	}
@@ -85,8 +84,8 @@ h2 {
 .picture_size {
 	border: solid 2px black; 
 	background: #b3b3b3;
-	width: 200px;
-	height: 300px;
+	width: 250px;
+	height: 350px;
 	padding: 40px;
 	margin-top: 20px;
 	margin-bottom: 40px;
