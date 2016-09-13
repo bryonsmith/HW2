@@ -19,7 +19,6 @@ header{
 }
 ul#dirlist { 
 	list-style-type: none; 
-	margin: 0 auto; 
 	padding: 10px;
 	border: solid 2px black;
 }
@@ -47,7 +46,7 @@ ul#dirlist {
 	}
 
 #dirlist a:hover { 
-	color: #fff; 
+	color: #000000; 
 	background-color: #e6e600; 
 	text-decoration: none; 
 	}
@@ -58,8 +57,6 @@ ul#dirlist {
 	overflow:hidden;
 	text-align:center;
 	}
-	
-a {text-decoration:none;}
 		
 a:hover {text-decoration: underline;}
 
