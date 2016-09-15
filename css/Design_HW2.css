@@ -99,6 +99,21 @@ h2 {
 	margin: 20px;
 }
 
+.picture_size3 {
+	border: solid 2px black;
+	width: 275px;
+	height: 175px;
+	float: right;
+	margin: 20px;
+	margin-right: 80px;
+	margin-top: 20px;
+	padding: 20px
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	
+}
+
 .middle {
 	border: solid 2px black; 
 	background: #b3b3b3;
@@ -123,4 +138,13 @@ h2 {
 	background: #b3b3b3;
 	padding: 20px;
 	font-size: 20pt;
+	overflow: auto;
+}
+
+footer{
+	border: solid 2px black;
+	background: #b3b3b3;
+	font-size: 12pt;
+	padding: 5px;
+	
 }
